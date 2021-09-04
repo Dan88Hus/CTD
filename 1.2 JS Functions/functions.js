@@ -83,7 +83,7 @@ function logString(value) {
         return console.log('params are not number')
     }
   }
-  mod(13, 4)
+  mod(2, 1)
   
   // QUESTION 6. Write a function definition that takes 2 whole Number (integer) parameters and returns their average (hint: there is no built-in average operator in JavaScript).
   
