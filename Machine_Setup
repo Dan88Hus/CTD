@@ -1,0 +1,7 @@
+sudo apt-get update
+sudo apt-get install rbenv
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+    to update ruby 3
+git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
+rbenv install 3.0.1
+rbenv global 3.0.1
